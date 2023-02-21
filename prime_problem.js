@@ -1,9 +1,3 @@
 function identifyPrime(num) {
-for(let i=2; i<NUM; i++){
-if(num%i==0){
-console.log("No")
-return;
-}
-}
-console.log("Yes")
-}
+let num=10,
+(num%i==0) ? console.log("Prime") : console.log("Not Prime");
